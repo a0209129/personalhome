@@ -19,7 +19,7 @@
  (set-frame-parameter (selected-frame) 'alpha (list alpha-level no-focus-alpha-level))
  (add-to-list 'default-frame-alist `(alpha ,alpha-level)))
 
-
+(global-set-key (kbd "C-x C-b") 'electric-buffer-list) ; Ctrl+x Ctrl+b
 
 
 
